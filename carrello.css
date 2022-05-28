@@ -1,0 +1,172 @@
+.nonMostrare{
+    display: none;
+}
+#carrello{
+    border: 2px solid white;
+    border-radius: 10px;
+    margin-right: 20px;
+    font-family: 'Heebo', sans-serif;
+    font-weight: bolder; 
+}
+#carrello :hover{
+   
+    background-color: yellow;
+    color: black;
+}
+     
+div p{
+    line-height: 1px;
+    font-size: 0.75rem;
+    color: white;
+    text-transform: uppercase;
+}
+div button{
+    height: 30px;
+    margin-top: 10px;
+    background-color: red;
+    font-size: 0.75rem;
+}
+div img{
+    width: 300px;
+    height: 300px;
+}
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+input{
+    width: 300px;
+    height: 50px;
+    border-radius: 25px;
+}
+#cerca:hover{
+    background-color: rgb(8, 2, 94);
+    color: white;
+}
+#cerca{
+    width: 150px;
+    
+}
+.griglia{
+    align-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.griglia div{
+    display: flex;
+    flex-direction: column;
+    width: 32.5%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #dcdcdc;
+    margin-bottom: 20px;
+    background-color: gray;
+}
+html {
+    font-size: 30px;
+}
+body{
+    background-color: navajowhite;
+    margin: 0; 
+}
+header::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+header{
+    background-image: url(https://www.unioneingegneri.com/wp-content/uploads/2020/02/come-si-costruisce-una-strada-750x450.jpg);
+    height:13rem;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Bree Serif', serif;
+    color: rgb(8, 2, 94);
+}
+header h1{
+    font-size: 2rem;
+}
+header nav{
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 0.75rem;
+    margin: 20px;
+}
+
+#Navigazione a{
+    border: 2px solid white;
+    border-radius: 10px;
+    margin-right: 20px;
+    font-family: 'Heebo', sans-serif;
+    font-weight: bolder; 
+}
+#Navigazione a:hover{
+    background-color: yellow;
+    color: black;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+@media (max-width: 610px) {
+    html{
+        font-size: 15px;
+    }
+    #Navigazione {
+      display: none;
+    }
+  
+    #menu {
+      display: block;
+    }
+  }
+@media(max-width:500px){
+    .griglia div{
+        width: 49%;
+    }
+}
+  #menu div {
+    width: 25px;
+    height: 3px;
+    background-color: white;
+    margin: 5px 0;
+}
+#menu{
+      display: none;
+}
+
+
+footer{
+    background-color: gray;
+    line-height: 2rem;
+    height: 5rem;
+    font-family: 'Heebo', sans-serif;
+    font-size: 0.6rem;
+    margin-top: 3rem;
+}
+footer a:hover{
+    font-size: larger;
+    color: yellow;
+}
+#info{
+    display: flex;
+    justify-content: space-around;
+}
+footer address{
+    text-align: center;
+    color: white;
+}

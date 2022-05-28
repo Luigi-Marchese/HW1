@@ -1,0 +1,190 @@
+
+#contenitore_login{
+    display: flex;
+    border: 2px solid black;
+    margin-top: 20px;
+    width: 17rem;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    background-color: white;
+}
+
+#link_reg{
+    display: block;
+    text-align: center;
+    color: blue;
+    font-size: 0.6rem;
+}   
+
+.errore_campo{
+    border: 2px solid red;
+}
+
+label{
+    display: flex;
+    justify-content: space-between;  
+    align-items: center;  
+    
+}
+
+input{
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+#map{
+    width:100%;
+    height: 50vh;
+}
+html {
+    font-size: 30px;
+}
+body{
+    background-color: navajowhite;
+    margin: 0; 
+}
+header::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+header{
+    background-image: url(https://www.unioneingegneri.com/wp-content/uploads/2020/02/come-si-costruisce-una-strada-750x450.jpg);
+    height:13rem;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Bree Serif', serif;
+    color: rgb(8, 2, 94);
+}
+header h1{
+    font-size: 2rem;
+}
+header nav{
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 0.75rem;
+    margin: 20px;
+}
+
+#Navigazione a{
+    border: 2px solid white;
+    border-radius: 10px;
+    margin-right: 20px;
+    font-family: 'Heebo', sans-serif;
+    font-weight: bolder; 
+}
+#Navigazione a:hover{
+    background-color: yellow;
+    color: black;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+@media (max-width: 610px) {
+    html{
+        font-size: 15px;
+    }
+    #Navigazione {
+      display: none;
+    }
+  
+    #menu {
+      display: block;
+    }
+  }
+  #menu div {
+    width: 25px;
+    height: 3px;
+    background-color: white;
+    margin: 5px 0;
+}
+#menu{
+      display: none;
+}
+
+section h1{
+    font-family: 'Inconsolata', monospace;
+    font-size: 1.5rem;
+    margin-top: 0.5rem;
+}
+#AcquistiSuggeriti{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  
+}
+div.Suggerimento h1{
+    font-size: 1rem;
+    padding-top: 10px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    border: 3px solid rgb(255, 0, 0);
+    display: inline-block;
+    font-style: italic;
+    font-weight: bolder;
+}
+div.Suggerimento p{
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    text-align: justify;
+    margin-bottom: 10px;
+    font-family: 'Medula One', cursive;
+    line-height: 2rem;
+    font-size: 1.5rem;
+    color: black;
+}
+div.Suggerimento img{
+    display: block;
+    width: 17rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom:10px;
+}
+#elencoBrand{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 3rem;
+}
+#elencoBrand img{
+    height: 5rem;
+    padding: 1rem;
+}
+
+
+
+footer{
+    background-color: gray;
+    line-height: 2rem;
+    height: 5rem;
+    font-family: 'Heebo', sans-serif;
+    font-size: 0.6rem;
+    margin-top: 3rem;
+}
+footer a:hover{
+    font-size: larger;
+    color: yellow;
+}
+#info{
+    display: flex;
+    justify-content: space-around;
+}
+footer address{
+    text-align: center;
+    color: white;
+}

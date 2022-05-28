@@ -1,0 +1,58 @@
+<!DOCTYPE html> 
+    <head>
+    <script src="registrazione.js" defer="true"></script>
+    <link rel="stylesheet" href="registrazione.css"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@100&display=swap" rel="stylesheet">        
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Medula+One&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&display=swap" rel="stylesheet">
+    </head>
+    <header>
+            <h1>Registrazione</h1>
+            <nav>
+                <div id="Navigazione">
+                    <a href="HW1.php">Home</a>
+                </div>
+    </header>
+    <body>
+    <main id="contenitore_registrazione">
+            <form method="POST" name="form_reg">
+                <p>
+                    <label>Nome utente<input type="text" name="nomeUtente"></label>
+                </p>
+                <p>
+                    <label>Email<input type="email" name="email"></label>
+                </p>
+                <p>
+                    <label>Cellulare <input type="number" name="cellulare"></label>
+                </p>
+                <p>
+                    <label>Password <input type="password" name="password"></label>
+                </p>
+                <p>
+                    <label>Conferma password <input type="password" name="c_password"></label>
+                </p>
+                <input type="submit" id="invio">
+            </form>
+        </main>
+        <div id="alert" class="nascoto"></div>
+        <footer>
+            <div id="info">
+                <a href="www">Chi siamo</a>
+                <a href="www">Contatti</a>
+                <a href="www">Lavora con noi</a>
+            </div>
+            <address>Luigi Marchese 1000026805</address>
+        </footer>
+    </body>
+</html>
+
